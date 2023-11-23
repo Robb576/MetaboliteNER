@@ -254,7 +254,7 @@ class Featurizer(object):
         self.usdw = set()
         self.usdwl = set()
         # /usr/share/dict/words
-        f = open(_getpath("words.txt"), "r",
+        f = open(_getpath("StopWords.txt"), "r",
                  encoding="utf-8", errors="replace")
         for l in f:
             l = l.strip()
